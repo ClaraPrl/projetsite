@@ -1,0 +1,58 @@
+header {
+  background-image: url(https://thumbs.dreamstime.com/t/texture-sans-joint-en-cuir-rouge-13820871.jpg);
+  display:flex;
+  height:120px;
+    justify-content:space-between;
+    position:fixed;
+        top: 0;
+        left : 0;
+        right: 0;
+}
+
+header img {
+  margin-top :10px;
+  height: 100px;
+}
+
+header h1{
+  color:white;
+  font-family:cursive;
+}
+
+ul ul {
+  display:none;
+}
+
+li:hover ul.sous-menu {
+  display:block;
+}
+
+.listemenu{
+  list-style-type:none;
+}
+.menu{
+  display: flex;
+ border: 2px solid white;
+ padding: 12px 30px;
+ border-radius: 7px;
+ color: white;
+ text-decoration: none;
+ margin-right:10px;
+}
+
+.affiches > img{
+  height:300px;
+  display:flex;
+  flex-direction:column;
+  margin-top:150px;
+  margin-left:25px;
+}
+
+
+.affiches :nth-child(1) {order:1; }
+.affiches :nth-child(2) {order:2; }
+
+.caracteristiques1{
+  margin-left:350px;
+  margin-top:10px;
+}
