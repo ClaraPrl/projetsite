@@ -40,19 +40,29 @@ li:hover ul.sous-menu {
  margin-right:10px;
 }
 
-.affiches > img{
-  height:300px;
-  display:flex;
-  flex-direction:column;
-  margin-top:150px;
-  margin-left:25px;
+.affiches{
+  margin-top: 12%;
+
 }
 
+.affiches article img {
+  height:300px;
+  margin-left:50px;
 
-.affiches :nth-child(1) {order:1; }
-.affiches :nth-child(2) {order:2; }
+}
 
-.caracteristiques1{
-  margin-left:350px;
-  margin-top:10px;
+article{
+  display:flex;
+  flex-direction:row;
+  margin-bottom: 5%;
+}
+
+h2{
+  font-family:sans-serif;
+  text-decoration:underline;
+}
+
+.caracteristiques{
+  margin-left:2%;
+  font-family:sans-serif;
 }
