@@ -14,6 +14,35 @@ header img {
   height: 100px;
 }
 
+.barre_recherches{
+  margin-top:9%;
+}
+#searchbar{
+    position:relative;
+    width:1040px;
+    height:auto;
+    display:inline-block;
+}
+#searchbar .text{
+    width:300px;
+    float:left;
+}
+#searchbar .champ{
+    width:300px;
+    height:30px;
+    float:left;
+    border-color:white;
+}
+#searchbar .bouton{
+    background-image: url(images/searchbar_button.png);
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    float:left;
+}
+body h1 {
+  color:yellow;
+}
 header h1{
   color:white;
   font-family:cursive;
@@ -30,6 +59,7 @@ li:hover ul.sous-menu {
 .listemenu{
   list-style-type:none;
 }
+
 .menu{
   display: flex;
  border: 2px solid white;
@@ -40,29 +70,103 @@ li:hover ul.sous-menu {
  margin-right:10px;
 }
 
-.affiches{
-  margin-top: 12%;
+body{
+  background-image:url(http://4.bp.blogspot.com/-Cyli10Jywd0/UWElu48scMI/AAAAAAAABLs/tWQtkbYW-Rk/s1600/stage-background.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+}
 
+.bouton{
+  display: flex;
+    border: 2px solid white;
+    padding: 12px 30px;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+    background-color:#FA5858;
+    text-align:center;
+}
+.soustitre img{
+  height:40px;
+}
+
+body p {
+  color:white;
+}
+
+body h2 {
+  color:white;
+}
+
+body h3 {
+  color:white;
+}
+
+.affiches{
+  margin-top: 3%;
 }
 
 .affiches article img {
   height:300px;
   margin-left:50px;
-
 }
 
-article{
+article {
   display:flex;
   flex-direction:row;
   margin-bottom: 5%;
 }
 
-h2{
+article h2 {
   font-family:sans-serif;
   text-decoration:underline;
 }
 
-.caracteristiques{
+.caracteristiques {
   margin-left:2%;
   font-family:sans-serif;
+}
+
+.sous-affiches {
+  display:none;
+}
+
+.article1:hover .sous-affiches,
+.article2:hover .sous-affiches,
+.article3:hover .sous-affiches,
+.article4:hover .sous-affiches {
+  display:block;
+  justify-content:flex-end;
+  margin-left:200px;
+}
+
+article aside h4 {
+  text-decoration:underline;
+}
+
+article aside img {
+  display:flex;
+  flex-direction:column;
+  vertical-align:middle;
+}
+
+footer{
+    background-image: url(https://thumbs.dreamstime.com/t/texture-sans-joint-en-cuir-rouge-13820871.jpg)
+}
+
+footer{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+footer h4{
+  color:white;
+  text-decoration:underline;
+}
+
+footer p{
+    color:white;
+    margin-top:0%;
 }
